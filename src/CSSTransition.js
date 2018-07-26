@@ -220,10 +220,10 @@ class CSSTransition extends React.Component {
     // This is for to force a repaint,
     // which is necessary in order to transition styles when adding a class name.
     if (className) {
-      /* eslint-disable no-unused-expressions */
-      node && node.scrollTop;
-      /* eslint-enable no-unused-expressions */
-      addClass(node, className);
+      window.requestAnimationFrame(() => {
+        /* eslint-enable no-unused-expressions */
+        addClass(node, className);
+      });
     }
   }
 
