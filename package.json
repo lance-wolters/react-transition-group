@@ -19,7 +19,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
