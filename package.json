@@ -1,5 +1,5 @@
 {
-  "name": "react-transition-group",
+  "name": "react-transition-group-raf",
   "version": "2.4.0",
   "description": "A react component toolset for managing animations",
   "main": "lib/index.js",
@@ -19,8 +19,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release",
-    "postinstall": "npm run build"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
